@@ -7,6 +7,8 @@ class TravelBlog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PageView.builder(
+      physics: BouncingScrollPhysics(),
+      itemCount: _list.length,
       itemBuilder: (context, index) {
         var travel = _list[index];
         return Stack(
