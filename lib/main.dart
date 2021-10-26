@@ -1,3 +1,4 @@
+import 'package:day_10/widgets/most_popular.dart';
 import 'package:day_10/widgets/travel_blog.dart';
 import 'package:flutter/material.dart';
 
@@ -82,7 +83,7 @@ class _HomeState extends State<Home> {
           ),
           Expanded(
             flex: 1,
-            child: Placeholder(),
+            child: MostPopular(),
           ),
         ],
       ),

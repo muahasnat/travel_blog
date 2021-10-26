@@ -6,11 +6,21 @@ class Travel {
 
   static List<Travel> genarateTravelBlog() {
     return [
-      Travel('Senary1', 'Coxbazar', 'assets/images/a4.jpg'),
-      Travel('Senary2', 'bandarban', 'assets/images/a1.jpg'),
-      Travel('Senary3', 'Shundarban', 'assets/images/a5.jpg'),
-      Travel('Senary4', 'Shundarban', 'assets/images/a3.jpg'),
-      Travel('Senary5', 'cholonbill', 'assets/images/a2.jpg'),
+      Travel('Senary1', 'Coxbazar', 'assets/images/a1.jpg'),
+      Travel('Senary2', 'bandarban', 'assets/images/a2.jpg'),
+      Travel('Senary3', 'Shaplaful', 'assets/images/a3.jpg'),
+      Travel('Senary4', 'Shundarban', 'assets/images/a4.jpg'),
+      Travel('Senary5', 'cholonbill', 'assets/images/a5.jpg'),
+    ];
+  }
+
+  static List<Travel> mostPopular() {
+    return [
+      Travel('Senary1', 'Coxbazar', 'assets/images/a1.jpg'),
+      Travel('Senary2', 'bandarban', 'assets/images/a2.jpg'),
+      Travel('Senary3', 'Shaplaful', 'assets/images/a3.jpg'),
+      Travel('Senary4', 'Shundarban', 'assets/images/a4.jpg'),
+      Travel('Senary5', 'cholonbill', 'assets/images/a5.jpg'),
     ];
   }
 }
