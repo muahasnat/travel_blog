@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class TravelBlog extends StatelessWidget {
   final _list = Travel.genarateTravelBlog();
-  final _pgCtrl = PageController(viewportFraction: 1);
+  final _pgCtrl = PageController(viewportFraction: 0.9);
 
   @override
   Widget build(BuildContext context) {
